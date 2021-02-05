@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    /*padding: 0px;*/
+    background-color: rgba(248, 248, 248, 0.74);
+}
+/*------------------------------------------------------*/
+
+.container-mae{ /*CORPO PRINCIPAL DOS COMPONENTES*/
+    background-color: rgba(248, 248, 248, 0.74);
+    margin-left: 200px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.container-imagem{ /*imagem*/
+    width: 450px;
+    height: 450px;
+    background-color: rgba(248, 248, 248, 0.74);
+    margin: 15px;
+    float: left;
+}
+.container-login{ /*login*/
+    width: 373px;
+    height: 360px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+    align-items: center;
+}
+.area-cadastro{ /*cadastros*/
+    background-color: rgb(255, 255, 255);
+    width: 373px;
+    height: 60px;
+    margin-top: 23px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+
+}
+img{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: auto;
+    line-height: 25px; /*OBS: ajusta a linha do texto ao componente*/
+    font-size: 14px;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#0095f6 ;
+}
+.imagem-logo{
+    margin-top: 20px;
+}
+#logo-insta{ /* DIV LOGO*/
+    width: 380px;
+    height: 70px;
+}
+#enter-users{ /*DIV INPUTS*/
+    width: 380px;
+    height: 40px;
+    align-items: center;
+    margin-top: 50px;
+}
+#buttons-login{ /*DIV BOTOES*/
+    width: 380px;
+    height: 35px;
+    margin-top: 35px;
+    align-items: center;
+}
+.enter1, .enter2 { /*inputs*/
+    width: 250px;
+    height: 35px;
+    margin-top: 5px;
+    outline: 0px;
+    border: 1px solid rgb(209, 209, 209) ;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.buttons-estilist{ /*botoes*/
+    margin-top: 15px;
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: royalblue;
+    outline: 0px;
+    color: white;
+    font-size: 14px;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 10px;
+}
+.buttons-estilist:hover{
+    background-color: rgb(112, 144, 241) ;
+}
+.ou-divisor{
+    font-size: 13px;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(122, 122, 122);
+}
+.entrar-face{
+    font-size: 14px;
+    color: rgb(0, 32, 129);
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.esqueceu-senha{
+    font-size: 12px;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(13, 68, 235);
+}
